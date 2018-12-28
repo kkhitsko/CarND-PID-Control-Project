@@ -1,7 +1,15 @@
 #ifndef PID_H
 #define PID_H
 
+#include <vector>
+
 class PID {
+private:
+    double best_error;
+    int iteration_step;
+
+    std::vector<double> dp;
+
 public:
   /*
   * Errors
@@ -41,6 +49,8 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+
 };
 
 #endif /* PID_H */

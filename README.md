@@ -1,7 +1,27 @@
-# CarND-Controls-PID
-Self-Driving Car Engineer Nanodegree Program
-
+# PID control project
+My solution of Self-Driving Car Engineer Nanodegree Program PID Control project
 ---
+
+## Select initial parameters for PID control
+
+First of all, I conducted several experiments showing that the greatest influence on the behavior of an vehicle has Proportional (P) component.
+
+A large value of the parameter D increases the probability of a critical displacement of the vehicle when cornering.
+
+The integral parameter (I) must be very small.
+
+As result, I chose following parameters values:
+* Kp = 0.3
+* Ki = 0.00003
+* Kd = 3.0
+
+## Optimize parameters using twiddle algorithm
+
+After that, I try to chose optimal parameters using twiddle algorithm. Result on each steps was written in log file. As result after 132300 steps I have following parameter values:
+* Kp = 0.265008
+* Ki = 0.0000396
+* Kd = 3.0
+
 
 ## Dependencies
 

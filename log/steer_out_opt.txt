@@ -1,0 +1,452 @@
+Step: 2100
+Total error: 308.307; Best error: 1.79769e+308
+Found new best error value: 308.307
+First time of parameter proportional update 
+Addition: 0.096
+Tune param: proportional
+Kp: 0.396; Ki: 3e-05; Kd: 3
+------------------------
+Step: 4200
+Total error: 427.51; Best error: 308.307
+Increase parameter proportional but don't have min error
+Addition: -0.192
+Tune param: proportional
+Kp: 0.204; Ki: 3e-05; Kd: 3
+------------------------
+Step: 6300
+Total error: 450.336; Best error: 308.307
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.096
+Tune param: proportional
+Kp: 0.3; Ki: 3e-05; Kd: 3
+------------------------
+Step: 8400
+Total error: 321.787; Best error: 308.307
+First time of parameter integral update 
+Addition: 9.6e-06
+Tune param: integral
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 10500
+Total error: 279.627; Best error: 308.307
+Found new best error value: 279.627
+First time of parameter derivative update 
+Addition: 1.056
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 4.056
+------------------------
+Step: 12600
+Total error: 293.116; Best error: 279.627
+Increase parameter derivative but don't have min error
+Addition: -2.112
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 1.944
+------------------------
+Step: 14700
+Total error: 381.869; Best error: 279.627
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 1.056
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 16800
+Total error: 314.966; Best error: 279.627
+First time of parameter proportional update 
+Addition: 0.0864
+Tune param: proportional
+Kp: 0.3864; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 18900
+Total error: 383.251; Best error: 279.627
+Increase parameter proportional but don't have min error
+Addition: -0.1728
+Tune param: proportional
+Kp: 0.2136; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 21000
+Total error: 390.918; Best error: 279.627
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.0864
+Tune param: proportional
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 23100
+Total error: 297.085; Best error: 279.627
+First time of parameter integral update 
+Addition: 1.056e-05
+Tune param: integral
+Kp: 0.3; Ki: 5.016e-05; Kd: 3
+------------------------
+Step: 25200
+Total error: 294.198; Best error: 279.627
+Increase parameter integral but don't have min error
+Addition: -2.112e-05
+Tune param: integral
+Kp: 0.3; Ki: 2.904e-05; Kd: 3
+------------------------
+Step: 27300
+Total error: 300.058; Best error: 279.627
+There is no effect while change integral parameter. Return parameter value 
+Addition: 1.056e-05
+Tune param: integral
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 29400
+Total error: 327.106; Best error: 279.627
+First time of parameter derivative update 
+Addition: 0.9504
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 3.9504
+------------------------
+Step: 31500
+Total error: 314.718; Best error: 279.627
+Increase parameter derivative but don't have min error
+Addition: -1.9008
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 2.0496
+------------------------
+Step: 33600
+Total error: 743.708; Best error: 279.627
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.9504
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+--------Scale twiddle optimizations parameters----------------
+Step: 35700
+Total error: 172.936; Best error: 279.627
+Found new best error value: 172.936
+First time of parameter proportional update 
+Addition: 0.03888
+Tune param: proportional
+Kp: 0.33888; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 37800
+Total error: 391.763; Best error: 172.936
+Increase parameter proportional but don't have min error
+Addition: -0.07776
+Tune param: proportional
+Kp: 0.26112; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 39900
+Total error: 341.105; Best error: 172.936
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.03888
+Tune param: proportional
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 42000
+Total error: 323.386; Best error: 172.936
+First time of parameter integral update 
+Addition: 4.752e-06
+Tune param: integral
+Kp: 0.3; Ki: 4.4352e-05; Kd: 3
+------------------------
+Step: 44100
+Total error: 353.071; Best error: 172.936
+Increase parameter integral but don't have min error
+Addition: -9.504e-06
+Tune param: integral
+Kp: 0.3; Ki: 3.4848e-05; Kd: 3
+------------------------
+Step: 46200
+Total error: 283.692; Best error: 172.936
+There is no effect while change integral parameter. Return parameter value 
+Addition: 4.752e-06
+Tune param: integral
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 48300
+Total error: 400.764; Best error: 172.936
+First time of parameter derivative update 
+Addition: 0.470448
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 3.47045
+------------------------
+Step: 50400
+Total error: 323.778; Best error: 172.936
+Increase parameter derivative but don't have min error
+Addition: -0.940896
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 2.52955
+------------------------
+Step: 52500
+Total error: 238.66; Best error: 172.936
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.470448
+Tune param:derivative
+Kp: 0.3; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 54600
+Total error: 398.384; Best error: 172.936
+First time of parameter proportional update 
+Addition: 0.034992
+Tune param: proportional
+Kp: 0.334992; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 56700
+Total error: 486.659; Best error: 172.936
+Increase parameter proportional but don't have min error
+Addition: -0.069984
+Tune param: proportional
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 58800
+Total error: 138.964; Best error: 172.936
+Found new best error value: 138.964
+First time of parameter integral update 
+Addition: 4.2768e-06
+Tune param: integral
+Kp: 0.265008; Ki: 4.38768e-05; Kd: 3
+------------------------
+Step: 60900
+Total error: 357.839; Best error: 138.964
+Increase parameter integral but don't have min error
+Addition: -8.5536e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.53232e-05; Kd: 3
+------------------------
+Step: 63000
+Total error: 430.041; Best error: 138.964
+There is no effect while change integral parameter. Return parameter value 
+Addition: 4.2768e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 65100
+Total error: 314.571; Best error: 138.964
+First time of parameter derivative update 
+Addition: 0.423403
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3.4234
+------------------------
+Step: 67200
+Total error: 217.388; Best error: 138.964
+Increase parameter derivative but don't have min error
+Addition: -0.846806
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 2.5766
+------------------------
+Step: 69300
+Total error: 412.158; Best error: 138.964
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.423403
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 71400
+Total error: 461.486; Best error: 138.964
+First time of parameter proportional update 
+Addition: 0.0384912
+Tune param: proportional
+Kp: 0.303499; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 73500
+Total error: 190.302; Best error: 138.964
+Increase parameter proportional but don't have min error
+Addition: -0.0769824
+Tune param: proportional
+Kp: 0.226517; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 75600
+Total error: 369.751; Best error: 138.964
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.0384912
+Tune param: proportional
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 77700
+Total error: 452.164; Best error: 138.964
+First time of parameter integral update 
+Addition: 3.84912e-06
+Tune param: integral
+Kp: 0.265008; Ki: 4.34491e-05; Kd: 3
+------------------------
+Step: 79800
+Total error: 349.971; Best error: 138.964
+Increase parameter integral but don't have min error
+Addition: -7.69824e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.57509e-05; Kd: 3
+------------------------
+Step: 81900
+Total error: 147.414; Best error: 138.964
+There is no effect while change integral parameter. Return parameter value 
+Addition: 3.84912e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+--------Scale twiddle optimizations parameters----------------
+Step: 84000
+Total error: 367.627; Best error: 138.964
+First time of parameter derivative update 
+Addition: 0.190531
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3.19053
+------------------------
+Step: 86100
+Total error: 422.875; Best error: 138.964
+Increase parameter derivative but don't have min error
+Addition: -0.381063
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 2.80947
+------------------------
+Step: 88200
+Total error: 322.823; Best error: 138.964
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.190531
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 90300
+Total error: 233.867; Best error: 138.964
+First time of parameter proportional update 
+Addition: 0.017321
+Tune param: proportional
+Kp: 0.282329; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 92400
+Total error: 392.297; Best error: 138.964
+Increase parameter proportional but don't have min error
+Addition: -0.0346421
+Tune param: proportional
+Kp: 0.247687; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 94500
+Total error: 459.442; Best error: 138.964
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.017321
+Tune param: proportional
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 96600
+Total error: 170.242; Best error: 138.964
+First time of parameter integral update 
+Addition: 1.7321e-06
+Tune param: integral
+Kp: 0.265008; Ki: 4.13321e-05; Kd: 3
+------------------------
+Step: 98700
+Total error: 366.113; Best error: 138.964
+Increase parameter integral but don't have min error
+Addition: -3.46421e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.78679e-05; Kd: 3
+------------------------
+Step: 100800
+Total error: 436.794; Best error: 138.964
+There is no effect while change integral parameter. Return parameter value 
+Addition: 1.7321e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 102900
+Total error: 339.13; Best error: 138.964
+First time of parameter derivative update 
+Addition: 0.171478
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3.17148
+------------------------
+Step: 105000
+Total error: 236.969; Best error: 138.964
+Increase parameter derivative but don't have min error
+Addition: -0.342957
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 2.82852
+------------------------
+Step: 107100
+Total error: 403.708; Best error: 138.964
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.171478
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+--------Scale twiddle optimizations parameters----------------
+Step: 109200
+Total error: 470.95; Best error: 138.964
+First time of parameter derivative update 
+Addition: 0.0771652
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3.07717
+------------------------
+Step: 111300
+Total error: 174.891; Best error: 138.964
+Increase parameter derivative but don't have min error
+Addition: -0.15433
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 2.92283
+------------------------
+Step: 113400
+Total error: 365.655; Best error: 138.964
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.0771652
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 115500
+Total error: 446.509; Best error: 138.964
+First time of parameter proportional update 
+Addition: 0.00779447
+Tune param: proportional
+Kp: 0.272802; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 117600
+Total error: 335.454; Best error: 138.964
+Increase parameter proportional but don't have min error
+Addition: -0.0155889
+Tune param: proportional
+Kp: 0.257214; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 119700
+Total error: 242.545; Best error: 138.964
+There is no effect while change proportional parameter. Return parameter value 
+Addition: 0.00779447
+Tune param: proportional
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 121800
+Total error: 380.485; Best error: 138.964
+First time of parameter integral update 
+Addition: 7.79447e-07
+Tune param: integral
+Kp: 0.265008; Ki: 4.03794e-05; Kd: 3
+------------------------
+Step: 123900
+Total error: 448.875; Best error: 138.964
+Increase parameter integral but don't have min error
+Addition: -1.55889e-06
+Tune param: integral
+Kp: 0.265008; Ki: 3.88206e-05; Kd: 3
+------------------------
+Step: 126000
+Total error: 182.429; Best error: 138.964
+There is no effect while change integral parameter. Return parameter value 
+Addition: 7.79447e-07
+Tune param: integral
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+Step: 128100
+Total error: 248.689; Best error: 138.964
+First time of parameter derivative update 
+Addition: 0.0694487
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3.06945
+------------------------
+Step: 130200
+Total error: 422.111; Best error: 138.964
+Increase parameter derivative but don't have min error
+Addition: -0.138897
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 2.93055
+------------------------
+Step: 132300
+Total error: 401.861; Best error: 138.964
+There is no effect while change derivative parameter. Return parameter value 
+Addition: 0.0694487
+Tune param:derivative
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3
+------------------------
+--------Scale twiddle optimizations parameters----------------
+******************************
+Optimization complete!!! 
+Kp: 0.265008; Ki: 3.96e-05; Kd: 3

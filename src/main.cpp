@@ -35,16 +35,17 @@ int main()
   PID steer_pid;
   PID throttle_pid;
 
-  steer_pid.Init(0.295081,0.00002389,4.89783, "pid_steer.txt", "steer_out.txt", false);
+  steer_pid.Init(0.3,0.00003,3.0, 0.32, "pid_steer_opt.txt", "steer_out_opt.txt", true);
+  //steer_pid.Init(0.295081,0.00002389,4.89783, "pid_steer.txt", "steer_out.txt", false);
 
   steer_pid.min_value = -1.0;
   steer_pid.max_value = 1.0;
 
-  steer_pid.accumulateStepsNum = 1600;
+  steer_pid.accumulateStepsNum = 2000;
   steer_pid.decideStepsNum = 100;
   steer_pid.twiddle_factor = 0.25;
 
-  throttle_pid.Init(0.6,0.00006, 0.06, "pid_throttle.txt", "throttle_out.txt", true);
+  throttle_pid.Init(0.6,0.00006, 0.06, 0.25, "pid_throttle.txt", "throttle_out.txt", true);
 
   throttle_pid.min_value = -0.5;
   throttle_pid.max_value = 0.5;
@@ -68,21 +69,19 @@ int main()
           double cte = std::stod(j[1]["cte"].get<std::string>());
           //double speed = std::stod(j[1]["speed"].get<std::string>());
           //double angle = std::stod(j[1]["steering_angle"].get<std::string>());
-          /*
-          * TODO: Calcuate steering value here, remember the steering value is
-          * [-1, 1].
-          * NOTE: Feel free to play around with the throttle and speed. Maybe use
-          * another PID controller to control the speed!
-          */
+
           steer_pid.UpdateError( cte );
           double steer_value = steer_pid.TotalError();
-
+          /*
           throttle_pid.UpdateError( cte );
           double throttle_value = 0.5 + 0.5*throttle_pid.TotalError();
 
           if ( throttle_pid.isOptimized() && !steer_pid.isOptimized() ) {
               steer_pid.enableOptimization();
           }
+          */
+
+          double throttle_value = 0.3;
 
 
 

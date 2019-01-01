@@ -87,7 +87,7 @@ public:
   /*
   * Initialize PID.
   */
-  void Init(double Kp, double Ki, double Kd, const std::string &logfile, const std::string &optimizefile, bool twiddle_optimization = false);
+  void Init(double Kp, double Ki, double Kd, double factor, const std::string &logfile, const std::string &optimizefile, bool twiddle_optimization = false);
 
   /*
   * Update the PID error variables given cross track error.

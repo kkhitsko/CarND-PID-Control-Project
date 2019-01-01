@@ -18,9 +18,10 @@ PID::PID():
 
 PID::~PID() {}
 
-void PID::Init(double Kp, double Ki, double Kd, const std::string &logfile, const std::string &optimizefile, bool twiddle_opt) {
+void PID::Init(double Kp, double Ki, double Kd, double factor, const std::string &logfile, const std::string &optimizefile, bool twiddle_opt) {
 
     twiddle_optimization = twiddle_opt;
+    twiddle_factor = factor;
 
     this->Kp = Kp;
     this->Ki = Ki;
@@ -193,6 +194,8 @@ void PID::scaleTwiddleParams() {
     dp[2] *= 0.5;
 
     scaleFactorCounter++;
+    effectlessOptimizationCounter = 0;
+    param_idx = 2;
 
     opt_file << "--------Scale twiddle optimizations parameters----------------" << endl;
 

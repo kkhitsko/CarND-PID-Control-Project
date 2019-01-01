@@ -19,7 +19,7 @@ As result, I chose following parameters values:
 
 ## Optimize parameters using twiddle algorithm
 
-After that, I try to chose optimal parameters using twiddle algorithm. Result on each steps was written in log file. As result after 132300 steps I have following parameter values:
+After that, I try to chose optimal parameters using twiddle algorithm. Result on each steps was written in log file https://github.com/kkhitsko/CarND-PID-Control-Project/log/steer_out_opt.txt. As result after 132300 steps I have following parameter values:
 * Kp = 0.265008
 * Ki = 0.0000396
 * Kd = 3.0

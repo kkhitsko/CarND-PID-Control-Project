@@ -15,6 +15,8 @@ As result, I chose following parameters values:
 * Ki = 0.00003
 * Kd = 3.0
 
+![PID control before optimize](video/PID_not_optimized.mp4)
+
 ## Optimize parameters using twiddle algorithm
 
 After that, I try to chose optimal parameters using twiddle algorithm. Result on each steps was written in log file. As result after 132300 steps I have following parameter values:
@@ -22,6 +24,7 @@ After that, I try to chose optimal parameters using twiddle algorithm. Result on
 * Ki = 0.0000396
 * Kd = 3.0
 
+![PID control after optimize](video/PID_optimized.mp4)
 
 ## Dependencies
 
